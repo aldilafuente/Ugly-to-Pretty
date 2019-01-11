@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin centrar() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: red;
+    @include centrar();
+}
