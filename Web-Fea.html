@@ -1,48 +1,59 @@
 <html>
 
-<meta charset='utf-8' />
-<title>esta página es fea</title>
-<meta content='width=device-width, initial-scale=1.0' name='viewport' />
-<link href='css/estilo.css' rel='stylesheet' />
+    <meta charset='utf-8'>
+    <title> esta página es fea </title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href='css/estilo.css' rel='stylesheet'>
 
 <body>
 
-    <div class="title">
+    <div class="intro">
         <h1> ¡Refactoreame! </h1>
+        <p> Esta página está llena de violaciones al principio "DRY" (Don't Repeat Yourself - No Te Repitas) junto con
+            otras violaciones a las buenas prácticas de HTML. Tu objetivo es reescribir el HTML y el CSS para que la
+            página quede linda, utilizando todos tus conocimientos, agregando además SASS. </p>
     </div>
+
+    <div class="pre-lista"> A continuación, una lista de cosas sugeridas para refactorear: </div>
+
+    <div class="lista">
+        <ul>
+            <li> refactorear los estilos inline </li>
+            <li> refactorear los duplicados que existen entre los tags </li>
+            <li> refactorear el código HTML para usar los elementos que corresponden </li>
+            <li> refactorear estilos para eliminar propiedades duplicadas </li>
+        </ul>
+    </div>
+
+    <div> ¡éxitos! </div>
+
+
+
 
     <!-- 
         
         
-        <div id="TextoParrafoNegroItalica1" style="font-style: italic; margin-bottom: 10px; color: black;">
-        Esta página está llena de violaciones al principio "DRY" (Don't Repeat Yourself - No te repitas) junto con
-        otras violaciones a las buenas prácticas de HTML.
+        <div style="font-style: italic; margin-bottom: 10px; color: black;"></div>
+        <div style="font-style: italic; margin-bottom: 10px; color: black;"></div>
+    
+       
+       
+       
+        <div id="lista1" style="background: #FAFAFA;">
+        
+            <div id="listaItem1" style="text-indent: 10px;">1.<div id="highlightedBlackText" style="font-weight: bold; color: blue; display: inline;"></div> (sacarlos a un CSS aparte).</div>
+        
+            <div id="listaItem2" style="text-indent: 10px;">2.<div id="highlightedBlackText" style="font-weight: bold; color: blue; display: inline;"></div> </div>
+        
+            <div id="listaItem3" style="text-indent: 10px;">3.<div id="highlightedBlackText" style="font-weight: bold; color: blue; display: inline;"></div> </div>
+        
+            <div id="listaItem3" style="text-indent: 10px;">4.<div id="highlightedBlackText" style="font-weight: bolder; color: blue; display: inline;"></div>
+            </div>
     </div>
 
-    <div id="TextoParrafoNegroItalica2" style="font-style: italic; margin-bottom: 10px; color: black;">
-        Tu objetivo es reescribir el HTML y el CSS para que quede lindo, utilizando todos tus conocimientos, agregando
-        además SASS
-        <pre>
-A continuación una lista de cosas sugeridas para refactorear
-            </pre>
-    </div>
-
-    <br />
-
-    <div id="lista1" style="background: #FAFAFA;">
-        <div id="listaItem1" style="text-indent: 10px;">1. Refactorear <div id="highlightedBlackText" style="font-weight: bold; color: blue; display: inline;">los
-                estilos inline</div> (sacarlos a un CSS aparte).</div>
-        <div id="listaItem2" style="text-indent: 10px;">2. Refactorear <div id="highlightedBlackText" style="font-weight: bold; color: blue; display: inline;">los
-                duplicados</div> que existen entre los tags.</div>
-        <div id="listaItem3" style="text-indent: 10px;">3. Refactorear <div id="highlightedBlackText" style="font-weight: bold; color: blue; display: inline;">el
-                código HTML</div> para usar los elementos que corresponden.</div>
-        <div id="listaItem3" style="text-indent: 10px;">4. Refactorear <div id="highlightedBlackText" style="font-weight: bolder; color: blue; display: inline;">estilos</div>
-            para eliminar propiedades duplicadas.</div>
-    </div>
-
-    <br />
-
-    <div id="nota" style="color: aqua; background: blue; padding: 10px; -webkit-border-radius: 5px; -ms-border-radius: 5px; -moz-webkit-border-radius: 5px; border-radius: 5px; text-align: center;">
+   <div id="nota" style="color: aqua; background: blue; padding: 10px; -webkit-border-radius: 5px; -ms-border-radius: 5px; -moz-webkit-border-radius: 5px; border-radius: 5px; text-align: center;">
         ¡¡Éxitos!!
     </div>-->
 

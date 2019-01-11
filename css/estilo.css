@@ -1,13 +1,68 @@
-/* line 1, ../sass/estilo.scss */
+/* line 3, ../sass/estilo.scss */
 html, body {
   margin: 0;
   padding: 0;
+  background: palegreen;
 }
 
-/* line 12, ../sass/estilo.scss */
-.title {
-  color: red;
+/* line 24, ../sass/estilo.scss */
+.intro {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/* line 25, ../sass/estilo.scss */
+.intro h1 {
+  color: peru;
+  font-family: 'Coiny', cursive;
+  letter-spacing: 4px;
+  margin-top: 50px;
+}
+/* line 32, ../sass/estilo.scss */
+.intro p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  line-height: 28px;
+  border: 4px double white;
+  width: 80%;
+  height: 100px;
+  padding: 15px;
+  margin-bottom: 50px;
+  background: lightcoral;
+}
+
+/* line 48, ../sass/estilo.scss */
+.pre-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+  font-family: 'Coiny', cursive;
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+  color: peru;
+  background: lightyellow;
+}
+
+/* line 59, ../sass/estilo.scss */
+.lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+/* line 63, ../sass/estilo.scss */
+.lista ul {
+  list-style: none;
 }

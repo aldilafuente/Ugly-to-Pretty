@@ -1,15 +1,66 @@
+@import "variables";
+
 html, body {
     margin: 0;
     padding: 0;
+    background: palegreen;
 }
 
 @mixin centrar() {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.title {
-    color: red;
+@mixin border-radius() {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+
+.intro {
+    h1 {
+        color: peru;
+        font-family: 'Coiny', cursive;
+        letter-spacing: 4px;
+        margin-top: 50px;
+    }
+
+    p {
+        @include centrar();
+        font-family: 'Handlee', cursive;
+        font-size: 20px;
+        line-height: 28px;
+        border: 4px double white;
+        width: 80%;
+        height: 100px;
+        padding: 15px;
+        margin-bottom: 50px;
+        background: lightcoral;
+    }
+    
     @include centrar();
+}
+
+.pre-lista {
+    @include centrar();
+    @include border-radius();
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    color: peru;
+    background: lightyellow;
+}
+
+.lista {
+    @include centrar();
+    border: 2px solid white;
+
+    ul {
+        list-style: none;
+    }
 }
