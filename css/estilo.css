@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: palegreen;
+  background: #F28585;
 }
 
 /* line 24, ../sass/estilo.scss */
@@ -14,7 +14,7 @@ html, body {
 }
 /* line 25, ../sass/estilo.scss */
 .intro h1 {
-  color: peru;
+  color: white;
   font-family: 'Coiny', cursive;
   letter-spacing: 4px;
   margin-top: 50px;
@@ -25,15 +25,15 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Handlee', cursive;
-  font-size: 20px;
-  line-height: 28px;
-  border: 4px double white;
+  font-family: 'Merienda', cursive;
+  font-size: 18px;
+  line-height: 32px;
+  border: 4px double black;
   width: 80%;
   height: 100px;
   padding: 15px;
   margin-bottom: 50px;
-  background: lightcoral;
+  background: white;
 }
 
 /* line 48, ../sass/estilo.scss */
@@ -42,10 +42,10 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  border: 1px solid white;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 4px double black;
   font-family: 'Coiny', cursive;
   font-size: 20px;
   width: 60%;
@@ -60,9 +60,37 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 4px double black;
   border: 2px solid white;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  height: 160px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 20px;
+  background: lightpink;
 }
-/* line 63, ../sass/estilo.scss */
-.lista ul {
-  list-style: none;
+/* line 71, ../sass/estilo.scss */
+.lista .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+/* line 77, ../sass/estilo.scss */
+.lista .item.uno {
+  border-bottom: 1px solid white;
+}
+/* line 78, ../sass/estilo.scss */
+.lista .item.dos {
+  border-bottom: 1px solid white;
+}
+/* line 79, ../sass/estilo.scss */
+.lista .item.tres {
+  border-bottom: 1px solid white;
 }
